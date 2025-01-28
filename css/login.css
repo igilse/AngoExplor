@@ -1,0 +1,81 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagens/serradaleba.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  }
+  
+  /* Container principal */
+  .login-container {
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 13px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    opacity: 0.95;
+  }
+  
+  /* Título */
+  .login-form h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Texto informativo */
+  .login-form p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Campos de entrada */
+  .login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Botão de login */
+  .login-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Links */
+  .login-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,81 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagens/quedasdecalandula.jpg'); /* Caminho da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Container principal */
+  .registro-container {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    opacity: 0.95;
+  }
+  
+  /* Título */
+  .registro-form h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Texto informativo */
+  .registro-form p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Campos de entrada */
+  .registro-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Botão de cadastro */
+  .registro-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .registro-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Links */
+  .registro-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .registro-form a:hover {
+    text-decoration: underline;
+  }
+  
