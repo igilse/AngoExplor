@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinos - AngoExplor</title>
+  <link rel="stylesheet" href="../css/destino.css">
+  <script defer src="../js/destino.js"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">AngoExplor</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destino.html">Destinos</a></li>
+        <li><a href="reserva.html">Reservas</a></li>
+        <li><a href="perfil.html">Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Filtro de pesquisa -->
+  <section class="filtro">
+    <label for="tipo-destino">Filtrar por tipo:</label>
+    <select id="tipo-destino">
+      <option value="todos">Todos</option>
+      <option value="praias">Praias</option>
+      <option value="montanhas">Montanhas</option>
+      <option value="ecoturismo">Ecoturismo</option>
+    </select>
+  </section>
+
+  <!-- Lista de destinos -->
+  <section class="destinos">
+    <h2>Principais Destinos</h2>
+    <div class="cards">
+      <div class="card" data-tipo="praias">
+        <img src="../imagens/praiadesangano.jpg" alt="Praia de Sangano">
+        <h3>Praia de Sangano</h3>
+        <p>Águas cristalinas e areia branca para relaxar.</p>
+        <a href="detalhe-sangano.html" class="btn">Ver mais detalhes</a>
+      </div>
+      <div class="card" data-tipo="montanhas">
+        <img src="../imagens/Morro-do-Moco.png" alt="Monte Moco">
+        <h3>Monte Moco</h3>
+        <p>O ponto mais alto de Angola, ideal para trilhas.</p>
+        <a href="detalhe-moco.html" class="btn">Ver mais detalhes</a>
+      </div>
+      <div class="card" data-tipo="ecoturismo">
+        <img src="../imagens/parquedakissama.jpg" alt="Parque Nacional da Quiçama">
+        <h3>Parque Nacional da Quiçama</h3>
+        <p>Experiência única de safári com animais selvagens.</p>
+        <a href="detalhe-quicama.html" class="btn">Ver mais detalhes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2025 AngoExplor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

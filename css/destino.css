@@ -1,0 +1,129 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-left: 1rem;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Filtro */
+  .filtro {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  
+  .filtro label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .filtro select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Destinos */
+  .destinos {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .destinos h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Botão */
+  .btn {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  

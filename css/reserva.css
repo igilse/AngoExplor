@@ -1,0 +1,105 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagens/reservaimagem.jpg'); /* Caminho da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-left: 1rem;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container de Reserva */
+  .reserva-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .reserva-container h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilo do Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas - AngoExplor</title>
+  <link rel="stylesheet" href="../css/reserva.css">
+  <script defer src="../js/reserva.js"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">AngoExplor</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destino.html">Destinos</a></li>
+        <li><a href="reserva.html">Reservas</a></li>
+        <li><a href="perfil.html">Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Formulário de Reserva -->
+  <main class="main">
+    <section class="reserva-container">
+      <h2>Faça sua Reserva</h2>
+      <form id="reserva-form">
+        <label for="destino">Destino:</label>
+        <select id="destino" name="destino">
+          <option value="sangano">Praia de Sangano</option>
+          <option value="moco">Monte Moco</option>
+          <option value="quicama">Parque Nacional da Quiçama</option>
+        </select>
+
+        <label for="data">Data da Reserva:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="pessoas">Número de Pessoas:</label>
+        <input type="number" id="pessoas" name="pessoas" min="1" required>
+
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Confirmar Reserva</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2025 AngoExplor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

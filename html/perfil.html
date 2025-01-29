@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do Usuário - AngoExplor</title>
+  <link rel="stylesheet" href="../css/perfil.css">
+  <script defer src="../js/perfil.js"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">AngoExplor</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destino.html">Destinos</a></li>
+        <li><a href="reserva.html">Reservas</a></li>
+        <li><a href="perfil.html" class="active">Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container do Perfil -->
+  <main class="perfil-container">
+    <h2>Meu Perfil</h2>
+    <div class="perfil-info">
+      <img src="../imagens/guabyusuario.jpg" alt="Foto do Usuário" class="perfil-img">
+      <p><strong>Nome:</strong> <span id="nome-usuario">Gueiby da Silva</span></p>
+      <p><strong>E-mail:</strong> <span id="email-usuario">gueibysilva@gmail.com</span></p>
+      <p><strong>Preferências:</strong> <span id="preferencias-usuario">Ecoturismo, Trilhas</span></p>
+      <button id="editar-perfil">Editar Perfil</button>
+    </div>
+
+    <!-- Histórico de Reservas -->
+    <section class="historico-reservas">
+      <h3>Histórico de Reservas</h3>
+      <ul id="lista-reservas">
+        <li>📍 Praia de Sangano - 12/02/2025</li>
+        <li>⛰️ Monte Moco - 05/03/2025</li>
+      </ul>
+    </section>
+
+    <!-- Botão de Logout -->
+    <button id="logout" class="btn-sair" onclick="window.location.href='login.html'">Sair</button>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2025 AngoExplor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
